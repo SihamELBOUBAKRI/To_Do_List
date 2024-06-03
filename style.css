@@ -1,0 +1,22 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#post{
+    margin:  auto;
+    padding: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+
+}
+button{
+    margin-top: 10px;
+    width: 100px;
+    align-self : center;
+}
+table{
+    width: 100%;
+}
