@@ -33,7 +33,7 @@ $tasks = isset($_SESSION['text']) ? $_SESSION['text'] : [];
                         <form class="form" action="php.php">
                             <button type="button" class="upd" data-text="<?php echo htmlspecialchars($task['text']); ?>">Update</button>
                             <div class="updateF" style="display: none;">
-                                <input type="text" name="up" value="<?php echo htmlspecialchars($task['text']); ?>">
+                                <input class='tex' type="text" name="up" value="<?php echo htmlspecialchars($task['text']); ?>">
                                 <input type="hidden" name="upd" value="<?php echo $task['id']; ?>" >
                                 <button type="submit" name="save" class="save">Save</button>
                                 <button type="button" class="cancel">Cancel</button>
